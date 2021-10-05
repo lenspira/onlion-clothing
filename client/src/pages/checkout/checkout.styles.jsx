@@ -8,9 +8,17 @@ export const CheckoutPageContainer = styled.div`
   align-items: center;
   margin: 50px auto 0;
 
+  @media screen and (max-width: 800px) {
+    margin-top: 20px;
+  }
+
   button {
     margin-left: auto;
     margin-top: 50px;
+
+    @media screen and (max-width: 800px) {
+      margin-top: 15px;
+    }
   }
 `;
 
@@ -35,6 +43,11 @@ export const TotalContainer = styled.div`
   margin-top: 30px;
   margin-left: auto;
   font-size: 36px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+    margin-top: 15px;
+  }
 `;
 
 export const TestWarningContainer = styled.div`
@@ -42,4 +55,9 @@ export const TestWarningContainer = styled.div`
   margin-top: 40px;
   font-size: 24px;
   color: red;
+
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+    margin-top: 15px;
+  }
 `;
